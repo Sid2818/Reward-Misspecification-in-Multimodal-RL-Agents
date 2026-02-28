@@ -17,11 +17,11 @@ class ColorDeliveryEnv:
     ):
         """
         reward_mode options:
-            correct
-            pickup
-            any_delivery
-            move_object
-            step_alive
+            correct         #aligned reward
+            pickup          #proxy reward
+            any_delivery    #misaligned reward
+            move_object     #proxy reward
+            step_alive      #neutral/misleading reward
         """
 
         self.size = size
